@@ -35,7 +35,7 @@ $(document).ready(function () {
                 html += '<div class="ikik flex flex-col md:flex-row" style="transform: translateX(-100%)">';
                 html += '<div class="mt-14 md:flex">';
                 html += '<div class="relative product">';
-                html += '<img class=" lg:w-full sm:w-96 xl:h-96 h-full object-contain" src="img/' + image + '" alt="image of profile" class="w-full h-full flex-shrink-0 object-fit object-cover shadow-lg rounded"/>';
+                html += '<img class=" lg:w-full sm:w-96 xl:h-96 h-full object-contain" src="/src/img/' + image + '" alt="image of profile" class="w-full h-full flex-shrink-0 object-fit object-cover shadow-lg rounded"/>';
                 html += '<div class="w-12 md:flex hidden items-center justify-center absolute top-0 -mr-[15px] -mt-[13px] right-0 h-12 bg-amber-200 norounded-full font-extrabold text-xl text-amber-800">' + id + '</div>';
                 html += '</div>';
                 html += '</div>';
